@@ -1,0 +1,48 @@
+/* 
+    orange: #F58229;
+    dark-blue: #0D265F;
+    light-gray: #B3B3B3;
+    body: #e4e3ee;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+body {
+    background-color: #e4e3ee;
+}
+
+.btn-darkBlue {
+    background-color: #0D265F;
+    color: #fff;
+}
+.btn-darkBlue:hover {
+    background-color: #0D265F;
+    color: #fff;
+}
+.card-header{
+    background-color: #0D265F;
+    color: #fff;
+}
+.card {
+    width: 25rem;
+    margin: auto;
+    margin-top: 5rem;
+}
+.register-link {
+    color: #0D265F;
+    text-decoration: none;
+    font-weight: bold;
+}
+.register-link:hover {
+    text-decoration: underline;
+}
+@media screen and (max-width: 800px) {
+    .card {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1000px) and (min-width: 801px) {
+    .card {
+        width: 60%;
+    }
+}
